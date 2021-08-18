@@ -1,0 +1,30 @@
+h1{
+    font-size: 5rem;
+}
+
+.content{
+    
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn{
+    user-select: none;
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: ease 1s;
+}
+
+
+.btn:hover{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+

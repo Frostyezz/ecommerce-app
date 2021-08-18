@@ -1,0 +1,19 @@
+.navbar{
+    background-color: white;
+    font-size: 3rem;
+	position: sticky;
+	top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    user-select: none;
+}
+
+@media (max-width: 600px){
+    .navbar{
+        font-size: 2rem;
+    }
+}

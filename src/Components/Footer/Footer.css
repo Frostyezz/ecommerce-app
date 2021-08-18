@@ -1,0 +1,19 @@
+.a{
+    display: block;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.logo{
+    user-select: none;
+    vertical-align: middle;
+    align-self: center;
+    padding-left: 50px;
+}
+
+@media (max-width: 767px){
+    .logo{
+        padding-left: 15px;
+    }
+}

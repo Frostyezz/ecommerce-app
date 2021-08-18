@@ -1,0 +1,82 @@
+.item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.icon{
+    padding: 10px 10px;
+    background-color: #a749ff;
+    transition: 0.7s;
+}
+
+.options{
+    position: relative;
+    bottom: 6.5px;
+    padding: 11px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #a749ff;
+    transition: 0.7s;
+}
+
+.options:hover{
+    background-color: black;
+}
+
+.icon:hover{
+    background-color: black;
+}
+
+.buttons{
+    margin: auto;
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    bottom: 125px;
+    user-select: none;
+}
+
+.img{
+    margin: auto;
+    height: 350px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 1400px){
+    .img{
+        height: 300px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 1200px){
+    .img{
+        height: 250px;
+        width: 200px;
+    }
+    .icon{
+        padding: 10px 8px;
+    }
+    .buttons{
+        bottom: 120px;
+    }
+    .options{
+        bottom: 7px;
+    }
+}
+
+@media (max-width: 767px){
+    .img{
+        height: 350px;
+        width: 300px;
+    }
+}

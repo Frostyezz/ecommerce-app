@@ -1,0 +1,45 @@
+.img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.price{
+    margin-left: auto;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+.icons{
+    display: block;
+    user-select: none;
+    cursor: pointer;
+}
+
+.info{
+    padding-left: 10px;
+    display: block;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.fix{
+    font-size: 1rem !important;
+}
+
+@media (max-width: 600px){
+    h4{
+        font-size: 1.3rem;
+        padding: 0px;
+        margin: 0px;
+    }
+}
