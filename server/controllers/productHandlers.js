@@ -28,3 +28,12 @@ export const getArrivals = async (req, res) => {
         res.status(404).json({message: error});
     }
 }
+
+export const getAll = async (req, res) => {
+    try {
+        const all = await Product.find();
+        res.status(200).json(all);
+    } catch (error) {
+        res.status(404).json({message: error});
+    }
+}
