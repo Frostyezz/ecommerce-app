@@ -1,0 +1,26 @@
+.title{
+    font-weight: 800;
+    color: #a749ff;
+    font-size: 15rem;
+}
+
+.btn{
+    margin: auto;
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #a749ff;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 550px){
+    .title{
+        font-size: 8rem;
+    }
+}
