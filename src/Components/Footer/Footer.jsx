@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './Footer.css';
 
 const Footer = () => {
@@ -13,24 +14,24 @@ const Footer = () => {
                 </div>
                 <div className="col-sm-12 col-md-3 my-4">
                     <h4>ABOUT US</h4>
-                    <a className={classes.a} href="#">About us</a>
-                    <a className={classes.a} href="#">Store location</a>
-                    <a className={classes.a} href="#">Contact</a>
-                    <a className={classes.a} href="#">Orders tracking</a>
+                    <Link className={classes.a} to="/about">About us</Link>
+                    <Link className={classes.a} to="/location">Store location</Link>
+                    <Link className={classes.a} to="/contact">Contact</Link>
+                    <Link className={classes.a} to="/tracking">Orders tracking</Link>
                 </div>
                 <div className="col-sm-12 col-md-3 my-4">
                 <h4>USEFUL LINKS</h4>
-                    <a className={classes.a} href="#">Returns</a>
-                    <a className={classes.a} href="#">Support policy</a>
-                    <a className={classes.a} href="#">Size guide</a>
-                    <a className={classes.a} href="#">FAQs</a>
+                    <Link className={classes.a} to="/returns">Returns</Link>
+                    <Link className={classes.a} to="/support-policy">Support policy</Link>
+                    <Link className={classes.a} to="/size-guide">Size guide</Link>
+                    <Link className={classes.a} to="/faq">FAQs</Link>
                 </div>
                 <div className="col-sm-12 col-md-3 my-4">
                 <h4>FOLLOW US</h4>
-                    <a className={classes.a} href="#">Facebook</a>
-                    <a className={classes.a} href="#">Youtube</a>
-                    <a className={classes.a} href="#">Twitter</a>
-                    <a className={classes.a} href="#">Instagram</a>
+                    <a className={classes.a} href="https://www.facebook.com/">Facebook</a>
+                    <a className={classes.a} href="https://www.youtube.com/">Youtube</a>
+                    <a className={classes.a} href="https://twitter.com/">Twitter</a>
+                    <a className={classes.a} href="https://www.instagram.com/">Instagram</a>
                 </div>
             </div>
         </div>

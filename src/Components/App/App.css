@@ -1,28 +1,2 @@
-.headingContainer{
-    display: flex;
-    margin: auto;
-    padding: 40px 0px;
-    flex-wrap: wrap;
-}
-
-.headingActive{
-    cursor: pointer;
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 800;
-    width: 300px;
-    margin: auto;
-    display: inline;
-}
-
-.heading{
-    cursor: pointer;
-    font-size: 2rem;
-    display: inline;
-    font-size: 3.2rem;
-    text-align: center;
-    width: 300px;
-    margin: auto;
-}
 
 

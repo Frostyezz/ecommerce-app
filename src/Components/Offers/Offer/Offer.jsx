@@ -30,7 +30,8 @@ const Offer = props => {
         onMouseEnter={() => {setHovered({isHovering: true})}} 
         onMouseLeave={() => {setHovered({isHovering: false})}}
         onTouchStart={() => {setHovered({isHovering: true})}} 
-        onTouchCancel={() => {setHovered({isHovering: false})}}
+        onTouchMove ={() => {setHovered({isHovering: false})}}
+        onTouchCancel ={() => {setHovered({isHovering: false})}}
         className={classes.item.concat(' col mb-3')}>
             <img className={classes.img} src={info.img} alt={info.title} />
             <h3 className="pt-3">{info.title}</h3>

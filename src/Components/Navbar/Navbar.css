@@ -7,9 +7,15 @@
 }
 
 .logo{
+    text-decoration: none;
+    color: black;
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     user-select: none;
+}
+
+.logo:hover{
+    color: black;
 }
 
 @media (max-width: 600px){

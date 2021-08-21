@@ -16,6 +16,20 @@
     cursor: pointer;
 }
 
+.option{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.option:hover{
+    color: #a749ff;
+}
+
 @media (max-width: 600px){
     .wrapper{
         width: 350px;

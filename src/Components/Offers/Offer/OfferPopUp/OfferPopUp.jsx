@@ -41,7 +41,7 @@ const OfferPopUp = ({click, info, addToCart}) => {
                     <p className={classes.none}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eos tenetur repellat voluptatibus aut iure, excepturi exercitationem sunt delectus voluptate obcaecati officia, atque iusto consequuntur temporibus qui autem, mollitia amet?</p>
                     <span className={classes.none}>Categories: {info.categories.map((cat, i) => (<span key={i}> {cat}</span>))}</span><br />
                     <span className={classes.none}>Details: {info.description}</span>
-                    <hr />
+                    <hr className={classes.noMargin}/>
                     <div className="row justify-content-start">
                         <div className="col-sm-6 col-lg-4 d-block mt-2">
                             <span>Select Color:</span>

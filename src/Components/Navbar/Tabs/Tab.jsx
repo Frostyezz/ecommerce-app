@@ -13,6 +13,10 @@ const Tab = props => {
                 <span className={iconClass} onClick={props.onClickWishlist}>favorite</span>
                 <span className={classes.counter} onClick={props.onClickWishlist}>{props.wishlistLength}</span>
             </div>
+            <div className='d-inline'>
+                <span className={iconClass} onClick={props.onClickMenu}>dashboard</span>
+                <span className={classes.counterFake} onClick={props.onClickMenu} ></span>
+            </div>
         </>
     )
 }

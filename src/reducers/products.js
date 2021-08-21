@@ -6,6 +6,8 @@ export default (products = [], action) => {
             return action.payload;
         case 'FETCH_ARRIVALS':
             return action.payload;
+        case 'FETCH_ALL':
+            return action.payload;
         default:
             return products;
     }

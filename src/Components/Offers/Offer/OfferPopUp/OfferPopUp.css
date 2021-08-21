@@ -126,12 +126,15 @@
         display: none;
     }
     .img{
-        width: 90%;
+        width: 70%;
         height: auto;
         margin-bottom: 20px;
     }
     .imgC{
         justify-content: center;
+    }
+    .noMargin{
+        margin: 0px 0px;
     }
 }
 

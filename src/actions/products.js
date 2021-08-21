@@ -26,3 +26,12 @@ export const getArrivals = () => async (dispatch) => {
         console.log(error);
     } 
 }
+
+export const getAll = () => async (dispatch) => {
+    try {
+        const { data } = await api.fetchAll();
+        dispatch({ type: 'FETCH_ALL', payload: data});
+    } catch (error) {
+        console.log(error);
+    } 
+}

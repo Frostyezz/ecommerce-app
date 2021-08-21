@@ -7,3 +7,5 @@ export const fetchDeals = () => axios.get(`${url}deals`);
 export const fetchSellers = () => axios.get(`${url}sellers`);
 
 export const fetchArrivals = () => axios.get(`${url}arrivals`);
+
+export const fetchAll = () => axios.get(`${url}all`);
