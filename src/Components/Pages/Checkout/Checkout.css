@@ -1,0 +1,34 @@
+.input{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #ccc;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.gray{
+    background-color: #f6f6f6;
+}
+
+.btn{
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #a749ff;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}

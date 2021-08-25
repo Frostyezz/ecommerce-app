@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Home from '../Pages/Home/Home';
 import Items from '../Pages/Items/Items';
 import NotFound from '../Pages/NotFound/NotFound';
+import Checkout from '../Pages/Checkout/Checkout';
 
 import classes from './App.css';
 
@@ -56,7 +57,12 @@ const App = () => {
       addToCart={addToCart}/>
       <Switch>
         <Route path="/" exact render={() => <Home addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
-        <Route path="/items" render={() => <Items addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/items" render={() => <Items title='All' tags={[]} addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/her" render={() => <Items title='Women' tags={['Women']} addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/him" render={() => <Items title='Men' tags={['Men']} addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/sale" render={() => <Items title='Sale' tags={['Sale']} addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/new" render={() => <Items title='New' tags={['New']} addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
+        <Route path="/checkout" render={() => <Checkout cartItems={cartItems}/>}/>
         <Route component={NotFound} />
       </Switch>
       <Footer />

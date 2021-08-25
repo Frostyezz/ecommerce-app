@@ -1,1 +1,20 @@
+.btn{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #a749ff;
+    color: white;
+    transition: 0.7s;
+    border: none;
+}
 
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.reset{
+    margin: 100px 0px;
+}

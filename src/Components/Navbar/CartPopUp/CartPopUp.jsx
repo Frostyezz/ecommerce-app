@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './CartPopUp.css';
 import Radium, {StyleRoot} from 'radium';
 import { fadeIn } from 'react-animations';
@@ -40,10 +41,10 @@ const CartPopUp = ({clicked, onClick, cartItems, removeFromCart}) => {
         </div>
         <div className="row w-100 text-center">
             <div className="col-sm-12 col-md-6 pb-3">
-                <a href="#" className={classes.btn}>Checkout</a>
+                <Link to="/checkout" className={classes.btn}>Checkout</Link>
             </div>
             <div className="col-sm-12 col-md-6 pb-3">
-                <a href="#" className={classes.btn}>View Cart</a>
+                <Link to="/cart" className={classes.btn}>View Cart</Link>
             </div>
         </div>
         

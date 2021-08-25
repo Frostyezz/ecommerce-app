@@ -27,6 +27,11 @@ const Home = ({addToCart, addToWishlist}) => {
     }
     
     }, [dispatch, offers]);
+
+    const fakeCriteria = {
+      search: '',
+      categories: []
+    }
     return (
     <>
         <Header />
@@ -36,7 +41,7 @@ const Home = ({addToCart, addToWishlist}) => {
             <h1 className={offers === 'deals' ? classes.headingActive : classes.heading} onClick={() => setOffers('deals')}>Daily Deals</h1>
             <h1 className={offers === 'arrivals' ? classes.headingActive : classes.heading} onClick={() => setOffers('arrivals')}>New Arrivals</h1>
         </div>
-        <Offers addToCart={addToCart} addToWishlist={addToWishlist}/>
+        <Offers addToCart={addToCart} addToWishlist={addToWishlist} criteria={fakeCriteria}/>
     </>
     )
 }

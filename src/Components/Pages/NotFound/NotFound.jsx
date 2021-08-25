@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import classes from './NotFound.css';
 
 const NotFound = () => {
+    useEffect(() => {window.scroll(0, 0)}, []);
     return (
         <div className="container my-5 py-1 text-center">
             <h1 className={classes.title}>404</h1>
